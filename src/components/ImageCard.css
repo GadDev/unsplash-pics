@@ -1,0 +1,19 @@
+.image-card {
+	position: relative;
+}
+
+.image-card a {
+	width: 40px;
+	height: 40px;
+	background: whitesmoke;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 30px;
+	left: 10px;
+	z-index: 1;
+}
+.image-card i.icon.download:before {
+	color: black;
+}
